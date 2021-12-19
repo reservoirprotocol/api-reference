@@ -1,4 +1,17 @@
 .App {
   height: 100vh;
 }
+.sl-elements .OperationParametersContent {
+  max-height: 1000px !important;
+}
+a[href^="https://stoplight.io"] {
+  display: none;
+}
+a[href^="/schemas"] {
+  display: none;
+}
+
+.sl-text-sm.sl-leading-relaxed.sl-tracking-wide.sl-font-bold.sl-uppercase.sl-mt-6.sl-mb-2.sl-pl-4 {
+  display: none !important;
+}
 
